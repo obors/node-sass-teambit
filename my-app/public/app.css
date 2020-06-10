@@ -1,0 +1,56 @@
+/*Header*/
+
+#cookie {
+  background-color: #ffe7d2;
+}
+
+#cookie p {
+  text-align: center;
+}
+
+nav {
+  width: 80%;
+  height: 75px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li .menu-drop a {
+  display: none;
+}
+
+.button-head {
+  float: right;
+  height: 35px;
+  width: 75px;
+}
+
+/*main*/
+
+.text-with-btns {
+  width: 50%;
+  float: left;
+}
+
+.text-with-btns h1 {
+  font-size: 55px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
+
+.btn-box {
+  display: flex;
+}
+
+.btn-box .social-btns {
+  width: 200px;
+  height: 35px;
+}
+
+.image {
+  width: 50%;
+  float: right;
+}
+

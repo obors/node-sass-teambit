@@ -1,0 +1,54 @@
+$color_must_used : #ffe7d2;
+$color_text : #58402c;
+
+
+/*Header*/
+#cookie{
+  background-color: $color_must_used;
+  p{
+    text-align: center;
+  }
+}
+
+nav{
+  width: 80%;
+  height: 75px;
+  ul li{
+    display: inline-block;
+    .menu-drop a{
+      display: none;
+
+    }
+  }
+}
+
+.button-head{
+  float: right;
+  height: 35px;
+  width: 75px;
+
+}
+/*main*/
+.text-with-btns{
+  width: 50%;
+  float: left;
+  h1{
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+  }
+
+}
+.btn-box{
+  display: flex;
+  .social-btns{
+    width: 200px;
+    height: 35px;
+  }
+}
+
+.image{
+  width: 50%;
+  float: right;
+
+}
